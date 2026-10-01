@@ -1,0 +1,29 @@
+PASS  Email detection does not also classify an email as UPI
+PASS  Spaced Indian phone number is detected
+PASS  UPI-like text is identified as a suggestion
+PASS  Account context with grouped digits is detected
+PASS  Short numbers and dates are not proposed as phone or account details
+PASS  Custom phrase finds repeated matches without hiding anything automatically
+PASS  Repeated detected values can be matched across spaces
+PASS  Detection padding is clamped to image bounds
+PASS  Oversized images are rejected before edit allocation
+PASS  Every source pixel in a redaction is replaced, including underneath annotations
+PASS  Unedited pixels retain their content
+PASS  Export does not change the original file
+PASS  Export refuses to overwrite the loaded original
+PASS  PNG round trip retains exact image dimensions
+PASS  Saved PNG contains redacted pixels
+PASS  Rendered image has no copied source metadata
+PASS  Undo restores the previous editing state
+PASS  Undo restores suggestion decisions independently
+PASS  Actual offline Windows OCR recognizes both email occurrences in the demo
+PASS  Actual offline OCR finds the demo phone number
+PASS  Actual offline OCR finds the demo UPI-like ID
+PASS  Actual offline OCR finds the demo account number
+PASS  App's async scan populates the suggestion list
+PASS  No automatic hiding occurs after the app scans an image
+PASS  A drag on the scaled editor creates a manual redaction in image coordinates
+PASS  Manual redaction made by the editor can be undone
+PASS  Hide matches applies to both detected emails in the editor
+PASS  A stale scan cannot apply old suggestions to a newly loaded image
+PASS  Capture selection supports dragging backwards and returns exact bounds

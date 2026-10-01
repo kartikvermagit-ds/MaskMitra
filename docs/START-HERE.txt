@@ -1,0 +1,31 @@
+MASKMITRA 1.0.0 — A little privacy. Before you share.
+
+1. Run MaskMitra.exe. No installation or administrator access is needed.
+2. Choose Try demo, Capture, Open image or Paste image.
+3. Review suggestions: Hide, Keep or Hide matches.
+4. Drag with Hide over anything the scan missed. Add arrows or notes.
+5. Review & export, inspect the image, then Copy clean image or Save PNG.
+
+Windows 10/11 and .NET Framework 4.8 are required. Automatic suggestions
+need an installed Windows OCR language. Manual Hide works without OCR.
+Ctrl+Shift+M captures while the app is running (if the shortcut is available).
+
+OCR can miss entire lines or misread text. Always visually review your image.
+Undecided suggestions remain visible. Faces, QR codes, names and addresses
+are not automatically classified. Use Manual Hide for missed details.
+The app never uploads images or creates screenshot history. Windows clipboard
+history/sync may retain images you explicitly copy. Originals are not edited.
+
+This release is unsigned. SmartScreen may show "Windows protected your PC".
+Only if you trust the source, More info > Run anyway may be available.
+Do not disable Windows security. Managed PCs may block unsigned apps.
+
+The live clipboard, global hotkey and mixed-DPI multi-monitor capture still
+need interactive validation. Automated tests use fictional images.
+
+Source, full guide, limitations and updates:
+https://github.com/kartikvermagit-ds/MaskMitra
+Downloads:
+https://github.com/kartikvermagit-ds/MaskMitra/releases/latest
+
+MIT license. Copyright (c) 2026 kartikvermagit-ds.
